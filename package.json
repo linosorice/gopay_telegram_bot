@@ -1,0 +1,30 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js prod",
+    "dev": "node index.js dev",
+    "staging": "node index.js staging",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "authors": [
+    "linosorice",
+    "mikepicker"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "fs": "0.0.1-security",
+    "mongodb": "^2.2.31",
+    "node-telegram-bot-api": "^0.29.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "standard": "^11.0.1"
+  }
+}

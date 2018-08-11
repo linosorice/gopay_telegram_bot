@@ -1,0 +1,8 @@
+{
+  "env": {
+    "GUARD_BOT_TOKEN": "397735925:AAGrA0QC_j_7lVaiP7sqJ0CSPFmV8kr8QbY",
+    "MONGO_DB": "@mongo-db-url-bot-gopay",
+    "GOPAY_HOST": "https://gopaydemo.herokuapp.com/",
+    "PORT": "80"
+  }
+}
